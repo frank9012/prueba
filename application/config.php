@@ -6,3 +6,6 @@
  * and open the template in the editor.
  */
 
+define('DEFAULT_CONTROLLER', 'index');
+
+?>

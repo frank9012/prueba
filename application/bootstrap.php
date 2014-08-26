@@ -5,4 +5,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+class Bootstrap
+{
+    public static function run(Request $peticion)
+    {
+        $controller = $peticion->getControlador() . 'Controller';
+    $rutaControlador = ROOT . 'controllers' . DS . $controller . '.php';
+    
+    echo $rutaControlador;exit;
+    }
+}
+?>
